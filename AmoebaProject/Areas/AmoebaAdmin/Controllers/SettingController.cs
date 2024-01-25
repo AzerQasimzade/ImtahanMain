@@ -51,7 +51,7 @@ namespace AmoebaProject.Areas.AmoebaAdmin.Controllers
             Setting setting = await _context.Settings.FirstOrDefaultAsync(c => c.Id == id);
             setting.Value= settingVM.Value;
             await _context.SaveChangesAsync();
-            return RedirectToAction("Index", "Setting");
+            return RedirectToAction("Index","Setting");
 
         }
     }

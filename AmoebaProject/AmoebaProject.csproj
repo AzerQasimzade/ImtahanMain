@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -20,8 +20,6 @@
   <ItemGroup>
     <Folder Include="Areas\AmoebaAdmin\Data\" />
     <Folder Include="Areas\AmoebaAdmin\Models\" />
-    <Folder Include="Areas\AmoebaAdmin\NewFolder\" />
-    <Folder Include="Areas\AmoebaAdmin\PaginationVM\" />
   </ItemGroup>
 
   <ItemGroup>

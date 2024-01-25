@@ -4,7 +4,7 @@ namespace AmoebaProject.Areas.ViewModels
 {
     public class UpdateEmployeeVM
     {
-        [MinLength(5)]
+        [MinLength(3)]
         [MaxLength(50)]
         public string Name { get; set; }
         [MinLength(3)]
@@ -15,15 +15,14 @@ namespace AmoebaProject.Areas.ViewModels
         [MaxLength(256)]
         public string Description { get; set; }
         public string Image { get; set; }
-        [Required]
 
         public string XLink { get; set; }
-        [Required]
+
         public string FacebookLink { get; set; }
-        [Required]
+
 
         public string InstagramLink { get; set; }
-        [Required]
+
 
         public string LinkEdinLink { get; set; }
 

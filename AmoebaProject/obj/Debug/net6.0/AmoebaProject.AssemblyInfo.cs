@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmoebaProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36b16e90901ffba0a37f6a8e8b2346f80d98599a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65e5164e44fa809b5840ac24e63da82a0f01d0f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmoebaProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmoebaProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

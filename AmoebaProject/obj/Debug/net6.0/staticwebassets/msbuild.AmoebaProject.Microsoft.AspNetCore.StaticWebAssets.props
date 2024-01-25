@@ -2432,6 +2432,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\881415cf-c74f-4ee0-abc4-593a6c8855d6Screenshot 2023-11-14 182837.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\a545ceae-e3fc-4aad-ae57-d5baa1b615ae0a87028c-d1c7-410f-b028-068d28ced7f8team-2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AmoebaProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AmoebaProject</BasePath>
+      <RelativePath>assets/img/team/a545ceae-e3fc-4aad-ae57-d5baa1b615ae0a87028c-d1c7-410f-b028-068d28ced7f8team-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\a545ceae-e3fc-4aad-ae57-d5baa1b615ae0a87028c-d1c7-410f-b028-068d28ced7f8team-2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\ab25c20a-6cf0-4be4-80d2-178eedc8bc7aScreenshot 2023-11-01 153335.png))">
       <SourceType>Package</SourceType>
       <SourceId>AmoebaProject</SourceId>
@@ -2463,6 +2479,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\b829460d-fd4f-42d1-97a0-02c6fa12d194team-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\c08ed3f2-2aed-4ce1-ad03-13f94a91e0f9b829460d-fd4f-42d1-97a0-02c6fa12d194team-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AmoebaProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AmoebaProject</BasePath>
+      <RelativePath>assets/img/team/c08ed3f2-2aed-4ce1-ad03-13f94a91e0f9b829460d-fd4f-42d1-97a0-02c6fa12d194team-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\c08ed3f2-2aed-4ce1-ad03-13f94a91e0f9b829460d-fd4f-42d1-97a0-02c6fa12d194team-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\team\d443fe47-f1c8-466f-aa5d-37274db0f9dfScreenshot 2023-11-01 153335.png))">
       <SourceType>Package</SourceType>

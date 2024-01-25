@@ -5,7 +5,7 @@ namespace AmoebaProject.Areas.ViewModels
     public class CreateEmployeeVM
     {
         [Required]
-        [MinLength(5)]
+        [MinLength(3)]
         [MaxLength(50)]
         public string Name { get; set; }
         [Required]
