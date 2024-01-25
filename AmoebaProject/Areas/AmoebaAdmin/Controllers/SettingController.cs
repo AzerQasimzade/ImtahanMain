@@ -1,12 +1,15 @@
 ﻿using AmoebaProject.Areas.ViewModels.Setting;
 using AmoebaProject.DAL;
 using AmoebaProject.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace AmoebaProject.Areas.AmoebaAdmin.Controllers
 {
     [Area("AmoebaAdmin")]
+    [Authorize(Roles = "Admin")]
+
     public class SettingController : Controller
     {
         private readonly AppDbContext _context;
@@ -43,7 +46,7 @@ namespace AmoebaProject.Areas.AmoebaAdmin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View();
+                return View(settingVM);
             }
             Setting setting = await _context.Settings.FirstOrDefaultAsync(c => c.Id == id);
             setting.Value= settingVM.Value;

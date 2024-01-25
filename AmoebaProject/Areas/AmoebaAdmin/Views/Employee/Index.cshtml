@@ -1,6 +1,7 @@
-﻿@model List<Employee>
+﻿@using AmoebaProject.Areas.ViewModels
+@model PaginationVM
 @{
-    int count = (ViewBag.CurrentPage-1)*3;
+    int count = (Model.CurrentPage-1)*3;
 }
 <div class="main-panel">
     <div class="content-wrapper">
@@ -32,7 +33,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model)
+                                    @foreach (var item in Model.Employees)
                                     {
                                         count++;
                                         <tr>
@@ -62,10 +63,10 @@
                             <nav aria-label="...">
                                 <ul class="pagination">
                                     
-                                   @for (int i = 0; i < ViewBag.TotalPage; i++)
+                                   @for (int i = 0; i < Model.TotalPage; i++)
                                     {
 
-                                        <li class="page-item @(ViewBag.CurrentPage-1==i?"active":"")" aria-current="page">
+                                        <li class="page-item @(Model.CurrentPage-1==i?"active":"")" aria-current="page">
                                             <a class="page-link" asp-action="Index" asp-controller="Employee" asp-area="AmoebaAdmin" asp-route-page="@(i+1)">@(i+1)</a>
                                         </li>
                                     }

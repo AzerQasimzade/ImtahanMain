@@ -20,6 +20,8 @@
   <ItemGroup>
     <Folder Include="Areas\AmoebaAdmin\Data\" />
     <Folder Include="Areas\AmoebaAdmin\Models\" />
+    <Folder Include="Areas\AmoebaAdmin\NewFolder\" />
+    <Folder Include="Areas\AmoebaAdmin\PaginationVM\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AmoebaProject.Areas.ViewModels.Employee
+namespace AmoebaProject.Areas.ViewModels
 {
     public class CreateEmployeeVM
     {

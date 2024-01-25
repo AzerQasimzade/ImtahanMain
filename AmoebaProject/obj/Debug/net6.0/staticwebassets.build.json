@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "isAkxT0nSqDOyR2Jl2q8osuGuPS9mU4hN2pbWt9qQbY=",
+  "Hash": "EcClyh6/moID6vA3TlZ+8Tf2ymPgpryiWF0u+gty5WU=",
   "Source": "AmoebaProject",
   "BasePath": "_content/AmoebaProject",
   "Mode": "Default",
@@ -2979,6 +2979,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\d443fe47-f1c8-466f-aa5d-37274db0f9dfScreenshot 2023-11-01 153335.png"
+    },
+    {
+      "Identity": "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\wwwroot\\assets\\img\\team\\ef0cd9c5-a9e2-43c1-861d-822f5f132d26team-3.jpg",
+      "SourceId": "AmoebaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\wwwroot\\",
+      "BasePath": "_content/AmoebaProject",
+      "RelativePath": "assets/img/team/ef0cd9c5-a9e2-43c1-861d-822f5f132d26team-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\team\\ef0cd9c5-a9e2-43c1-861d-822f5f132d26team-3.jpg"
     },
     {
       "Identity": "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\wwwroot\\assets\\img\\team\\team-1.jpg",
