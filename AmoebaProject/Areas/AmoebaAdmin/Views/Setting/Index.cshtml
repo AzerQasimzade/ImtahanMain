@@ -1,0 +1,50 @@
+﻿@model List<Setting>
+@{
+    int count = 0;
+}
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Setting Table</h4>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            No
+                                        </th>
+                                        <th>
+                                            Value
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td>
+                                                @count
+                                            </td>
+                                            <td>
+                                                @item.Value
+                                            </td>
+                                            <td class="py-1">
+                                                <a asp-action="Update" asp-area="AmoebaAdmin" asp-controller="Setting" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                                <a asp-action="Delete" asp-area="AmoebaAdmin" asp-controller="Setting" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

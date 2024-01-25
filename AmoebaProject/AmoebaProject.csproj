@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="Areas\AmoebaAdmin\Data\" />
     <Folder Include="Areas\AmoebaAdmin\Models\" />
-    <Folder Include="Utilities\Extensions\" />
   </ItemGroup>
 
   <ItemGroup>

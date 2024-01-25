@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AmoebaProject.Areas.AmoebaAdmin.Controllers
 {
     [Area("AmoebaAdmin")]
-    [Authorize(Roles ="Admin")]
+    //[Authorize(Roles ="Admin")]
     public class HomeController : Controller
     {
 

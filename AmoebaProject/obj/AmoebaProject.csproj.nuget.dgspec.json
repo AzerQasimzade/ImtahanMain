@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ca.r214.08\\Desktop\\AmoebaProject\\AmoebaProject.csproj": {}
+    "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\AmoebaProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ca.r214.08\\Desktop\\AmoebaProject\\AmoebaProject.csproj": {
+    "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\AmoebaProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ca.r214.08\\Desktop\\AmoebaProject\\AmoebaProject.csproj",
+        "projectUniqueName": "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\AmoebaProject.csproj",
         "projectName": "AmoebaProject",
-        "projectPath": "C:\\Users\\ca.r214.08\\Desktop\\AmoebaProject\\AmoebaProject.csproj",
+        "projectPath": "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\AmoebaProject.csproj",
         "packagesPath": "C:\\Users\\ca.r214.08\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ca.r214.08\\Desktop\\AmoebaProject\\obj\\",
+        "outputPath": "C:\\Users\\ca.r214.08\\Desktop\\ImtahanMain\\AmoebaProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ca.r214.08\\AppData\\Roaming\\NuGet\\NuGet.Config",

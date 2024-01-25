@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AmoebaProject.Areas.AmoebaAdmin.Controllers
 {
     [Area("AmoebaAdmin")]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class AccountController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
@@ -86,16 +86,16 @@ namespace AmoebaProject.Areas.AmoebaAdmin.Controllers
             }
             return RedirectToAction("Index", "Home", new { area = "" });
         }
-        public async Task<IActionResult> CreateRole()
-        {
-            foreach (var item in Enum.GetValues(typeof(UserRoles)))
-            {
-                await _roleManager.CreateAsync(new IdentityRole
-                {
-                    Name = item.ToString(),
-                });
-            }
-            return RedirectToAction("Index", "Home", new { area = "" }); ;
-        }
+        //public async Task<IActionResult> CreateRole()
+        //{
+        //    foreach (var item in Enum.GetValues(typeof(UserRoles)))
+        //    {
+        //        await _roleManager.CreateAsync(new IdentityRole
+        //        {
+        //            Name = item.ToString(),
+        //        });
+        //    }
+        //    return RedirectToAction("Index", "Home", new { area = "" }); ;
+        //}
     }
 }

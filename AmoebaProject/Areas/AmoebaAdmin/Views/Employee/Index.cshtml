@@ -1,6 +1,6 @@
 ﻿@model List<Employee>
 @{
-    int count = 0;
+    int count = (ViewBag.CurrentPage-1)*3;
 }
 <div class="main-panel">
     <div class="content-wrapper">
@@ -49,16 +49,29 @@
                                                 @item.Description
                                             </td>
                                             <td class="py-1">
-                                                <img src="~/assets/img/team/@item.Image" alt="@item.Name" />
+                                                <img src="~/assets/img/team/@item.Image" alt="@item.Name"/>
                                             </td>
                                             <td class="py-1">
-                                                <a asp-action="Update" asp-area="AmoebaAdmin" asp-controller="Employee" class="btn btn-warning">Update</a>
-                                                <a asp-action="Delete" asp-area="AmoebaAdmin" asp-controller="Employee" class="btn btn-danger">Delete</a>
+                                                <a asp-action="Update" asp-area="AmoebaAdmin" asp-controller="Employee" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                                <a asp-action="Delete" asp-area="AmoebaAdmin" asp-controller="Employee" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
                                             </td>
                                         </tr>
                                     }
                                 </tbody>
                             </table>
+                            <nav aria-label="...">
+                                <ul class="pagination">
+                                    
+                                   @for (int i = 0; i < ViewBag.TotalPage; i++)
+                                    {
+
+                                        <li class="page-item @(ViewBag.CurrentPage-1==i?"active":"")" aria-current="page">
+                                            <a class="page-link" asp-action="Index" asp-controller="Employee" asp-area="AmoebaAdmin" asp-route-page="@(i+1)">@(i+1)</a>
+                                        </li>
+                                    }
+                                    
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
