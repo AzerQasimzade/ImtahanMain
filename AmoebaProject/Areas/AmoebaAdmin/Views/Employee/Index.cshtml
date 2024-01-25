@@ -1,0 +1,68 @@
+﻿@model List<Employee>
+@{
+    int count = 0;
+}
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Employee Table</h4>
+                        <a asp-action="Create" asp-area="AmoebaAdmin" asp-controller="Employee" class="btn btn-success">Create</a>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            No
+                                        </th>
+                                        <th>
+                                            Name
+                                        </th>
+                                        <th>
+                                            Profession
+                                        </th>
+                                        <th>
+                                            Description
+                                        </th>
+                                        <th>
+                                            Image
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td>
+                                               @count
+                                            </td>
+                                            <td>
+                                               @item.Name
+                                            </td>
+                                            <td>
+                                                @item.Profession
+                                            </td>
+                                            <td>
+                                                @item.Description
+                                            </td>
+                                            <td class="py-1">
+                                                <img src="~/assets/img/team/@item.Image" alt="@item.Name" />
+                                            </td>
+                                            <td class="py-1">
+                                                <a asp-action="Update" asp-area="AmoebaAdmin" asp-controller="Employee" class="btn btn-warning">Update</a>
+                                                <a asp-action="Delete" asp-area="AmoebaAdmin" asp-controller="Employee" class="btn btn-danger">Delete</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
